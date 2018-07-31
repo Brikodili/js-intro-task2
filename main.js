@@ -1,6 +1,6 @@
 "use strict";
 
-function calcD(a, b, c) {
+function calcDiscriminant(a, b, c) {
     var d, x1, x2;
 
     d = (b * b - 4 * a * c);
@@ -13,5 +13,5 @@ function calcD(a, b, c) {
         console.log("d < 0");
     }
 }
-calcD(1, 3, 1);
+calcDiscriminant(1, 3, 1);
 
