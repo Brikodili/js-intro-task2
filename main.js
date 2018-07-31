@@ -13,5 +13,5 @@ function calcD(a, b, c) {
         console.log("d < 0");
     }
 }
-calcD(1, 2, 1);
+calcD(1, 3, 1);
 
